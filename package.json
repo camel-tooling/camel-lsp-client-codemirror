@@ -4,16 +4,20 @@
     "watch": "rimraf dist && webpack --watch"
   },
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camel-tooling/camel-lsp-client-codemirror"
+  },
   "dependencies": {
     "codemirror": "^5.49.0",
     "lsp-editor-adapter": "^0.0.10",
-    "rimraf": "^2.6.3"
+    "rimraf": "^3.0.0"
   },
   "devDependencies": {
     "@types/codemirror": "^0.0.77",
-    "css-loader": "^1.0.1",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.33.0",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9"
   }
 }
