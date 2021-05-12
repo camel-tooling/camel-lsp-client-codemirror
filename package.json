@@ -9,7 +9,7 @@
     "url": "https://github.com/camel-tooling/camel-lsp-client-codemirror"
   },
   "dependencies": {
-    "codemirror": "^5.49.0",
+    "codemirror": "^5.58.2",
     "lsp-editor-adapter": "^0.0.10",
     "rimraf": "^3.0.0"
   },
